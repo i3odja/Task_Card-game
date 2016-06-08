@@ -1,0 +1,68 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header {
+    height: 10%;
+    background-color: brown;
+}
+main {
+    position: relative;
+    min-height: 80%;
+}
+footer {
+    height: 10%;
+    background-color: chartreuse;
+    position: relative;
+    top: 20px;
+}
+
+#container {
+    position: relative;
+    min-height: 80%;
+    padding: 0;
+}
+#container2 {
+    padding: 0px;
+    position: absolute;
+}
+
+.tail, .tail2 {
+    height: 15vh;
+    outline: 1px solid black;
+    /*border-radius: 50%;*/
+}
+
+.tail{
+    opacity: 0;
+}
+.selected{
+    opacity: 1;
+}
+
+#container2{
+    position: absolute;
+    top: 10%;
+}
+.tail2{
+    border: 1px solid white;
+    background-image: url(128-199.jpg);
+    
+}
+
+.tail2{
+    position: relative;
+    opacity: 1;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+#restart{
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    height: 100px;
+    display: none;
+}
